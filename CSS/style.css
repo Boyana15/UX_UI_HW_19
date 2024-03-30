@@ -1,0 +1,321 @@
+body {
+    margin: 0% auto;
+    background-color: #F6FAF9;
+ }
+ 
+ .inline-block {
+    display: inline-block;
+    vertical-align: center;
+    padding: 3px 10px 0px 20px;
+ }
+ 
+ .navigation {
+    width: 100%;
+    background-color:#1F2421;
+ }
+ .logo {
+    width: 10%;
+    padding: 1%;
+    text-align: center;
+ }
+ nav {
+    width: 80%;
+    padding: 1%;
+    text-align: right;
+    background-color:#1F2421;
+ }
+ ul {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .heroImg {
+    height: 600px;
+    padding: 50px;
+ 
+ }
+ .content {
+    width: 500px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 25px
+ }
+ footer {
+    background-color: #1F2421;
+ }
+ 
+ ul {
+    display: inline-block;
+    vertical-align: center;
+    color: white
+ }
+ 
+ li {
+    padding: 20px;
+    font-family:Rokkitt, Sans-Serif;
+ }
+ .topmenu {
+    float: right;
+    vertical-align: center;
+ }
+ button {
+    padding: 10px 24px;
+    border-radius: 8px;    
+    background-color: #E3C4E0;
+    border: none;
+    font-size: 16px;
+    font-family: Rokkitt, Sans-Serif;
+ }
+ p {
+    font-family: Rokkitt, Sans-Serif;;
+    font-size: 16px;
+ }
+ 
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: white;
+    padding: 3%;
+ }
+ 
+ .container {
+    font-family: Rokkitt, Sans-Serif;
+    font-size: 16px;
+ }
+
+ .mySkills {
+    margin-top: 140px;
+}
+.hr3 {
+    border:none;
+    border-top:1px solid;
+    color:#C38CBD;
+    margin-left: 0%
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 30px;
+}
+.skills {
+    width: 33%;
+    padding: 4%;
+    margin: 10px;
+    background-color:white;
+    color:black;
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px lightgrey;
+    font-family: Rokkitt, Sans-Serif;
+}
+p {
+    font-family: Rokkitt, Sans-Serif;;
+    line-height: 25px;
+}
+h2 {
+    font-family: Rokkitt, Sans-Serif;;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    color: #C38CBD;
+    font-size: 40px;
+}
+.myWork {
+    margin-top: 130px;
+}
+.hr2 {
+    border:none;
+    border-top:1px solid;
+    color:#C38CBD;
+    margin-right: 0%
+}
+.workGrid {
+    margin-top: 40px;
+    display: grid;
+    margin-left: 8%;
+    margin-right: 8%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "workInfo1 workImage1 workImage1"
+    "workInfo2 workImage2 workImage2";
+  background-color: white;
+}
+.workInfo1 {
+    background-color: black;
+    color: white;
+    grid-area: workInfo1;
+    margin-bottom: 20px;
+    padding: 40px;
+    padding-top: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.workInfo2 {
+    background-color: black;
+    color: white;
+    grid-area: workInfo2;
+    margin-bottom: 20px;
+    padding: 40px;
+    padding-top: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.myWork h2 {
+    margin-left: 80%;
+}
+.workImage1 {
+    grid-area: workImage1;
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.workImage2 {
+    grid-area: workImage2;
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.workImage1 img {
+    object-fit: fill;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.workImage2 img{
+    object-fit: fill;
+    width: 80%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h4 {
+    font-size: 30px;
+    font-family: Rokkitt, Sans-Serif;;
+}
+.button3 {
+    padding: 10px 24px;
+    border-radius: 8px;    
+    background-color: #E3C4E0;
+    border: none;
+    font-size: 16px;
+    font-family: Rokkitt, Sans-Serif;
+}
+
+.icon{
+    font-size: 36px;
+}
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        
+    }
+    .skills {
+        width: 94%;
+        margin-bottom: 10px;
+        
+    }
+    .bottom-left {
+        bottom: 100px;
+        text-align: start;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .subheading {
+        bottom: 50px;
+        text-align: start;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .hr1 {
+        width: 75%;
+        bottom: 90px;
+       
+    }
+    .content {
+        width: 94%;
+        margin-top: 40px;
+        margin-left: 3%;
+        margin-right: 3%;
+        position: static;
+        box-shadow: 2px 5px 5px lightgrey;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .about {
+        text-align: left;
+        padding: 20px;
+    }
+   
+    .herocontainer img {
+        height: 300px;
+    }
+    .portrait {
+        display: none;
+    }
+    .workGrid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "workImage1" 
+        "workImage1"
+        "workInfo1" 
+        "workImage2"
+        "workImage2"
+        "workInfo2";
+        margin-left: 3%;
+        margin-right: 3%;
+        height: 1200px;
+    }
+    .workInfo1 {
+        margin-bottom: 20px;
+        padding-top: 0px;
+        margin-top: 0px;
+        box-shadow: 2px 5px 5px lightgrey;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+    .workInfo2 {
+        margin-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 0px;
+        box-shadow: 2px 5px 5px lightgrey;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+    .workImage1 {
+        margin-bottom: 0px;
+        box-shadow: 0px 0px 0px lightgrey;
+    }
+    .workImage2 {
+        margin-bottom: 0px;
+        box-shadow: 0px 0px 0px lightgrey;
+    }
+    .workImage2 img {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 20px;
+    }
+    .workImage1 img {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 20px;
+    }
+    .myWork h2 {
+        margin-left: 8%;
+    }
+    .hr2 {
+        float: left;
+    }
+}
