@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0% auto;
     background-color: #F6FAF9;
@@ -28,7 +32,11 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    color:white;
  }
+
+ a {color:white;
+}
  .heroImg {
     height: 600px;
     padding: 50px;
@@ -64,6 +72,8 @@ body {
     background-color: #E3C4E0;
     border: none;
     font-size: 16px;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
     font-family: Rokkitt, Sans-Serif;
  }
  p {
@@ -76,7 +86,11 @@ body {
     border-radius: 5px;
     background-color: white;
     padding: 3%;
+    transition: .2s;
  }
+ .card:hover {
+    transform:scale(1.1);
+}
  
  .container {
     font-family: Rokkitt, Sans-Serif;
