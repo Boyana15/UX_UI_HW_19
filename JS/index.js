@@ -1,7 +1,5 @@
 console.log ("JS loaded correctly");
 
-
-
 // Scroll to About Me Section
 $("#about").on("click",function() {
     $("html, body").animate({scrollTop: $(".heroImg").offset().top
@@ -33,5 +31,7 @@ $( "a" ).hover(function() {
     $( this ).fadeIn( 500 );
     console.log ("Button hover triggered");
   });
+
+
 
   

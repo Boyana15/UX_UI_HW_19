@@ -35,6 +35,24 @@ body {
     color:white;
  }
 
+ nav a:hover {
+    background-position: 0;
+    background-image: linear-gradient(
+        to right,
+        #F4F4F4,
+        #C38CBD 50%,
+        #C38CBD 50%
+      );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover::before {
+    width: 100%;
+}
+
  a {color:white;
 }
  .heroImg {
@@ -51,7 +69,13 @@ body {
  footer {
     background-color: #1F2421;
  }
+
+ .footerIcons {
+    text-align: end;
+ }
  
+ .copyrightText {text-align: end;
+color: white;}
  ul {
     display: inline-block;
     vertical-align: center;
@@ -76,6 +100,16 @@ body {
     cursor: pointer;
     font-family: Rokkitt, Sans-Serif;
  }
+
+ button:hover {     padding: 10px 24px;
+    border-radius: 8px;    
+    background-color: #C38CBD;
+    border: none;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+    font-family: Rokkitt, Sans-Serif;}
+
  p {
     font-family: Rokkitt, Sans-Serif;;
     font-size: 16px;
@@ -333,3 +367,5 @@ h4 {
         float: left;
     }
 }
+
+
